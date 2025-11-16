@@ -12,7 +12,7 @@
 const int WINDOW_WIDTH = 900;
 const int WINDOW_HEIGHT = 600;
 
-int currentSeason = 3; // 0=spring,1=summer,2=autumn,3=winter
+int currentSeason = 0; // 0=spring,1=summer,2=autumn,3=winter
 
 float sunX = -50.0f;      // Sun starting X
 float sunSpeed = 1.0f;    // Sun horizontal speed
@@ -272,3 +272,4 @@ int main(int argc, char** argv) {
     glutMainLoop();
     return 0;
 }
+
